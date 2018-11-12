@@ -1,0 +1,37 @@
+{
+  "name": "twitter-feed",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "office-ui-fabric-react": "^6.93.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-notification-system": "^0.2.17",
+    "react-notification-system-redux": "^1.2.0",
+    "react-redux": "^5.1.0",
+    "react-scripts-ts": "3.1.0",
+    "redux": "^4.0.1",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.7",
+    "@types/node": "^10.12.0",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-notification-system-redux": "^1.1.6",
+    "@types/react-redux": "^6.0.9",
+    "@types/uuid": "^3.4.4",
+    "jest": "^23.6.0",
+    "typescript": "^3.1.3"
+  }
+}

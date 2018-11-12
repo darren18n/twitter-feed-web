@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "5be52c0a3271dd31a4f2a099",
+      "screenName": "Alan",
+      "firstName": "",
+      "lastName": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "5be52c0a3271dd31a4f2a09b",
+      "screenName": "Jack",
+      "firstName": "",
+      "lastName": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "5be52c0a3271dd31a4f2a09c",
+      "screenName": "Jim",
+      "firstName": "",
+      "lastName": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "5be52c0a3271dd31a4f2a09a",
+      "screenName": "John",
+      "firstName": "",
+      "lastName": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "5be52c0a3271dd31a4f2a09d",
+      "screenName": "Martin",
+      "firstName": "",
+      "lastName": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "5be52c0a3271dd31a4f2a098",
+      "screenName": "Ward",
+      "firstName": "",
+      "lastName": "",
+      "bio": "",
+      "avatar": ""
+    }
+  ],
+  "followers": [
+    {
+      "user_id": "5be52c0a3271dd31a4f2a099",
+      "follower_id": "5be52c0a3271dd31a4f2a098"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a099",
+      "follower_id": "5be52c0a3271dd31a4f2a098"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a09a",
+      "follower_id": "5be52c0a3271dd31a4f2a098"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a09b",
+      "follower_id": "5be52c0a3271dd31a4f2a098"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a09b",
+      "follower_id": "5be52c0a3271dd31a4f2a09c"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a09c",
+      "follower_id": "5be52c0a3271dd31a4f2a098"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a09d",
+      "follower_id": "5be52c0a3271dd31a4f2a099"
+    },
+    {
+      "user_id": "5be52c0a3271dd31a4f2a09d",
+      "follower_id": "5be52c0a3271dd31a4f2a098"
+    }
+  ],
+  "tweets": [
+    {
+      "id": "5be52dd91d6af102d8ba5adf",
+      "user_id": "5be52c0a3271dd31a4f2a099",
+      "message": "If you have a procedure with 10 parameters, you probably missed some.",
+      "create_date": "2018-11-09T06:48:57.450Z",
+      "update_date": null
+    },
+    {
+      "id": "5be52dd91d6af102d8ba5ae0",
+      "user_id": "5be52c0a3271dd31a4f2a099",
+      "message": "Random numbers should not be generated with a method chosen at random.",
+      "create_date": "2018-11-09T06:48:57.450Z",
+      "update_date": null
+    },
+    {
+      "id": "5be52dd91d6af102d8ba5ae1",
+      "user_id": "5be52c0a3271dd31a4f2a098",
+      "message": "There are only two hard things in Computer Science: cache invalidation, naming things and off-by-1 errors.",
+      "create_date": "2018-11-09T06:48:57.450Z",
+      "update_date": null
+    }
+  ]
+}
