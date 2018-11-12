@@ -1,0 +1,36 @@
+
+Dependencies:
+	node v10.30
+	typescript
+	
+Setup
+
+Api Project:
+To run the api project:
+	- install the project dependencies by running `npm install` script
+	- transpile the source code by running `npm build` script
+	- start the api by running `npm start` script
+
+Web Project:
+To run the web project:
+	- install project dependencies, as completed above
+	- start the project by running `npm start` script
+	
+Features:
+
+- The user has the ability to import data (tweet.txt and user.txt)
+
+- If the user has made a valid selection, the data will be uploaded. If the data is well formed
+the user will see the formatted result of the import. The data will be persisted to the hosted
+instance on MongoDb.
+
+- If the data selection is invalid (incorrect number of files selected), a warning message will
+be displayed to the user.
+
+- The user has the ability to view imported tweets and users by selecting either the
+`tweets` or `users` navigatuin tabs.
+
+- If the same user file is used in an import, the users will not be recreated. It assumed
+that each user represents as unique handle/screenname.
+
+- Any errors incurred while importing or requesting tweet/user data will be displayed to the user.
