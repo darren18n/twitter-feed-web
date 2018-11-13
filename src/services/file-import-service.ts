@@ -1,6 +1,6 @@
-import { ContentTypes, HttpVerb } from 'src/enums/http-enums';
-import { LogLevel } from 'src/enums/log-level-enum';
-import { HttpRequestConfig } from "src/models/http-client/";
+import { ContentTypes, HttpVerb } from '../enums/http-enums';
+import { LogLevel } from '../enums/log-level-enum';
+import { HttpRequestConfig } from "../models/http-client/";
 import { IBaseService } from './base-service';
 import HttpClientInstance, { HttpClient } from './client/http-client';
 import { ILogger } from './logger/logger-service';

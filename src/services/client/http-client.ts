@@ -1,10 +1,10 @@
 import axios, { AxiosError, AxiosInstance } from "axios";
-import { HttpConfig } from "src/config/config";
-import { HttpVerb } from "src/enums/http-enums";
-import {CustomError, HttpError, NetworkError, TimeoutError} from "src/models/errors";
-import { HttpRequest, IHttpResponse } from "src/models/http-client/";
+import { HttpConfig } from "../../config/config";
+import { HttpVerb } from "../../enums/http-enums";
+import {CustomError, HttpError, NetworkError, TimeoutError} from "../../models/errors";
+import { HttpRequest, IHttpResponse } from "../../models/http-client/";
 import { HttpClientBase } from "./http-client-base";
-import HttpErrorHandler from "./http-error-handler";
+import { HttpErrorHandler } from "./http-error-handler";
 
 export class HttpClient extends HttpClientBase {
   public static instance: HttpClient;
@@ -19,6 +19,7 @@ export class HttpClient extends HttpClientBase {
       });
 
       HttpClient.instance = this;
+      return HttpClient.instance;
     }
   }
 

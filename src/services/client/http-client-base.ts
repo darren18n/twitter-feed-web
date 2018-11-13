@@ -1,7 +1,7 @@
 
-import { HttpConfig } from "src/config/config";
-import { HttpVerb } from "src/enums/http-enums";
-import { HttpRequest, HttpRequestConfig, IHttpRequestConfig, IHttpResponse } from "src/models/http-client/";
+import { HttpConfig } from "../../config/config";
+import { HttpVerb } from "../../enums/http-enums";
+import { HttpRequest, HttpRequestConfig, IHttpRequestConfig, IHttpResponse } from "../../models/http-client/";
 
 export abstract class HttpClientBase {
 // #region HttpMethods

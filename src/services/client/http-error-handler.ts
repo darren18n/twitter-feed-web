@@ -1,7 +1,7 @@
-import { ErrorCodes } from "src/enums/http-enums";
-import {CustomError, HttpError, IHttpError, NetworkError, TimeoutError} from "src/models/errors";
+import { ErrorCodes } from "../../enums/http-enums";
+import {CustomError, HttpError, IHttpError, NetworkError, TimeoutError} from "../../models/errors";
 
-class HttpErrorHandler {
+export class HttpErrorHandler {
   public static mapError(error: IHttpError): HttpError | TimeoutError | NetworkError | CustomError {
     const { code, message, response, request } = error;
     if (response && response.status) {
